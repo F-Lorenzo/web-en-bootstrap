@@ -30,7 +30,7 @@
     }
     .lmbutton{
         background:#FF4A40;
-        border-radius: 2;
+        border-radius: 4;
     }
     .lmbutton:hover{
         background:#FF4A40;
@@ -44,10 +44,23 @@
     .form-control {
       border-radius: 0;
     }
+    input::placeholder{
+      color:#C0C0C0;
+    }
+    .list{
+      font-size: 21px;
+    }
+    .contendor-blanco{
+      border-radius: 6px;
+    }
+    .styled-inputs{
+      border: 1px solid #565655;
+      border-radius: 4px;
+    }
 </style>
 <body>
 
-    <div class="container pb-3">
+    <div class="container ">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -127,12 +140,12 @@
                   </div>
                 </div>
                 <div class=" my-5  parrafo-1">
-                   <p class="text-center text-lg-start">
+                   <p class="text-center text-lg-start col-11">
                     Download Our 8 Best Facebook Ad
                     Compaigns To Use In Your Business Today !
                    </p>
                 </div>
-                <div class="my-5 parrafo-2">
+                <div class="my-5 parrafo-2 col-10">
                     6 of our HIGHEST CONVERTIN Facebook Ads we”ve run to date PLUS a 
                     breakdown of why each ad is successful
                 </div>
@@ -143,8 +156,8 @@
           </div>
     </div>
     <div class="container-fluid background">
-      <div class="container py-4">
-        <div class="col  d-flex justify-content-center ">
+      <div class="container pb-4">
+        <div class="col pt-2    d-flex justify-content-center ">
           <p class="display-4 text-white col-10 col-sm-8  text-center">The Ultimate <strong>Mexico City</strong> Travel Guide</p>
         </div>
         <div class="col d-flex justify-content-center ">
@@ -154,9 +167,11 @@
           <div class="col-md-6 d-flex justify-content-center align-content-center">
             <img src="./book.png" alt="book" class="img-fluid">
           </div>
-          <div class="col-md-6">
-            <div class="h5 text-white">Grab Your Free Facebook Ad Templates
-              Now</div>
+          <div class="col-md-5">
+            <div class="h5 col-lg-9 text-white">
+             <p>Grab Your Free Facebook Ad Templates</p> 
+             <p class="text-center">now</p>
+            </div>
               <form>
                 <div class="row ">
                   <div class="col-md-6 col-sm-12 mt-2">
@@ -175,10 +190,11 @@
                 </div>
                 <div class="my-2 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label text-white" for="exampleCheck1">By Checking this box, I agree to digitalMarketer”s Limited Privacy Policy and Terms and Conditions</label>
+                  <label class="form-check-label text-white" for="exampleCheck1">By Checking this box, I agree to digitalMarketer”s</label>
+                  <p class="text-white">Limited Privacy Policy and Terms and Conditions</p>
                 </div>
-                <div>
-                  <button type="submit" class="lmbutton btn text-white w-100 h-25 ">GET MY FACEBOOK AD TEMPLATES</button>
+                <div>         
+                  <button type="submit" class="lmbutton btn text-white col-lg-10 h-25 ">GET MY FACEBOOK AD TEMPLATES</button>
                 </div>
               </form>
           </div>
@@ -189,17 +205,17 @@
       <div class="row">
         <div class="col-md-6">
           <div class="d-flex justify-content-center align-content-center">
-            <p class="display-6 text-center text-sm-start">Copy & Paste These 6 proven Facebook Ad
+            <p class="h3 text-center text-sm-start">Copy & Paste These 6 proven Facebook Ad
               Campaigns To create Low-Cost, High-Converting Ads On-Demand...</p>
           </div>
           <ul>
-            <li class="my-2">6 of our HIGHEST CONVERTING Facebook Ads we”ve run to date </li>
-            <li class="my-2">The 11-word ad that netted $208,485 in sales using one simple </li>
-            <li class="my-2">principle of buyer persuasion that works in ANY market </li>
-            <li class="my-2">The “you forgot” reminder trick that brings in new customer and</li>
-            <li class="my-2">leads...AFTER they”ve already said NO to your offer!</li>
-            <li class="my-2">The “Use__?” question formula that drives down click costs and sharply increases conversions.</li>
-            <li class="my-2">Our Top Lead Gen ad that generated a combined 110,422 leads and counting...</li>
+            <li class="list my-2">6 of our <strong>HIGHEST CONVERTING Facebook Ads</strong> we”ve run to date </li>
+            <li class="list my-2"><strong> 11-word ad that netted $208,485 </strong>in sales using one simple </li>
+            <li class="list my-2">principle of buyer persuasion that works in ANY market </li>
+            <li class="list my-2">The “you forgot” reminder trick that brings in new customer and</li>
+            <li class="list my-2">leads...AFTER they”ve already said NO to your offer!</li>
+            <li class="list my-2">The “Use__?” question <strong> formula that drives down click costs</strong> and sharply increases conversions.</li>
+            <li class="list my-2">Our Top Lead Gen ad that <strong>generated a combined 110,422 leads</strong> and counting...</li>
           </ul>
         </div>
         <div class="col-md-6 d-flex justify-content-center align-content-center">
@@ -208,22 +224,22 @@
       </div>
     </div> 
     <div class="container-fluid background d-flex justify-content-center align-content-center">
-      <div class=" bg-white col-lg-4 col-md-5 col-sm-12 h-25 m-5 p-5 ">
-        <div class="text-center">Grab Your Free Facebook Ad Templates </div>
+      <div class="contendor-blanco  bg-white col-lg-4 col-md-5 col-sm-12 h-25 m-5 p-5 ">
+        <div class="text-center list mb-3">Grab Your Free Facebook Ad Templates </div>
         <form >
           <div class="row">
             <div class="col-lg-6 col-sm-12 my-1">
-              <input type="text" class="form-control border border-secondary-subtle" placeholder="First Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="text" class="form-control styled-inputs" placeholder="First Name" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="col-lg-6 col-sm-12 my-1">
-              <input type="text" placeholder="Last Name" class="form-control border border-secondary-subtle" id="exampleInputPassword1">
+              <input type="text" placeholder="Last Name" class="form-control styled-inputs" id="exampleInputPassword1">
             </div>
           </div>
           <div  class="my-2" >
-            <input type="email" class="form-control border border-secondary-subtle" placeholder="Email address" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control styled-inputs" placeholder="Email address" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
           <div class="my-2" >
-            <input type="text" class="form-control border border-secondary-subtle" placeholder="Company Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="text" class="form-control styled-inputs" placeholder="Company Name" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
           <div class=" form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
